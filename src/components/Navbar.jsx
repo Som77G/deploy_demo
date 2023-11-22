@@ -145,7 +145,7 @@ const Navbar = ({change, setChange}) => {
          <div className='mx-2'>
           {/* <Link to="/friends" className = "mx-3 px-4 py-3 text-blue-100 no-underline bg-blue-600 rounded hover:bg-blue-700  hover:text-blue-200" >FRIENDS</Link> */}
           
-          <Button onClick={() => navigate('/friends')} variant="contained" endIcon={<GroupIcon />}>FRIENDS</Button>
+          <Button onClick={() => navigate('/home')} variant="contained" endIcon={<GroupIcon />}>FRIENDS</Button>
 
           </div>)}
         </nav>
