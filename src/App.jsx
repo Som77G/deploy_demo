@@ -14,6 +14,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import UserProfile from './pages/UserProfile'
 import Profile from './pages/Profile'
+import Friends from './components/Friends'
 
 function App() {
   const {user} = useAuthContext();
@@ -78,6 +79,9 @@ function App() {
               path= "/userProfile"
               element = {<UserProfile/>}
             />
+
+            <Route path= '/friends' element= {(user) ? <Friends /> : <Navigate to = '/home' />}
+           />
            
             <Route 
               path = "/profile"
