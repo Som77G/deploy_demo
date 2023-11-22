@@ -3,7 +3,7 @@ import { Field, Form, Formik } from "formik";
 import { useContext } from "react";
 import * as Yup from "yup"
 import { MessageContext } from "./Friends";
-import getSocketInstance from "../socket";
+import getSocketInstance from "../../socket";
 const ChatBox = ({userid})=>{
     const {setMessages}= useContext(MessageContext);
     const socket= getSocketInstance();

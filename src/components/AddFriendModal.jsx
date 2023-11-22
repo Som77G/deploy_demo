@@ -1,7 +1,7 @@
 import { Button, Modal, ModalContent, ModalFooter, ModalHeader, ModalOverlay, ModalBody, ModalCloseButton, Heading} from "@chakra-ui/react";
 import TextField from './TextField'
 import { Formik, Form } from "formik";
-import getSocketInstance from ".././socket";
+import getSocketInstance from "../../socket";
 import { useCallback, useContext, useState } from "react";
 import { FriendContext} from "./Friends";
 const AddFriendModal= ({isOpen, onClose})=>{

@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import getSocketInstance from "../socket";
+import getSocketInstance from "../../socket";
 // import { io } from "socket.io-client";
 import { useLogout } from "./useLogout";
 import { useAuthContext } from "./useAuthContext";
