@@ -17,7 +17,7 @@
 // }
 // export default socketConnection;
 import { io } from "socket.io-client";
-import { useAuthContext } from "./hooks/useAuthContext";
+import { useAuthContext } from "./src/context/AuthContext";
 
 let socket; // Declare a variable to store the socket instance
 
